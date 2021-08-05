@@ -1,4 +1,4 @@
-import  Carousel from "react-bootstrap/Carousel";
+import Carousel from "react-bootstrap/Carousel";
 
 const Home = () => {
   return (
@@ -42,22 +42,20 @@ const Home = () => {
       </nav>
 
       <div className="container">
-          <Carousel variant="dark">
-          
-                <Carousel.Item >
-                    <img src="../ht1.jpg" className="d-block w-100" alt=""/>
-                </Carousel.Item>
-                <Carousel.Item >
-                    <img src="../ht2.jpg" className="d-block w-100" alt=""/>
-                </Carousel.Item>
-                <Carousel.Item >
-                    <img src="../ht3.jpg" className="d-block w-100" alt=""/>
-                </Carousel.Item>
-                <Carousel.Item >
-                    <img src="../ht4.jpg" className="d-block w-100" alt=""/>
-                </Carousel.Item>
-           
-          </Carousel>
+        <Carousel variant="dark">
+          <Carousel.Item>
+            <img src="../ht1.jpg" className="d-block w-100" alt="" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img src="../ht2.jpg" className="d-block w-100" alt="" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img src="../ht3.jpg" className="d-block w-100" alt="" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img src="../ht4.jpg" className="d-block w-100" alt="" />
+          </Carousel.Item>
+        </Carousel>
       </div>
     </div>
   );
