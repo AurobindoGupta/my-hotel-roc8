@@ -1,12 +1,19 @@
-
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import Home from './components/Home';
 
 
 function App() {
   return (
+    <Router>
     <div className="App">
-      <h1>YO BOYS</h1>
-      <h2>LETS DO THIS SHIT</h2>
+      <Switch>
+        <Route exact path='/'>
+          <Home/>
+        </Route>
+      </Switch>
+     
     </div>
+    </Router>
   );
 }
 
