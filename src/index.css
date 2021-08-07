@@ -2,3 +2,23 @@
 {
      visibility:hidden;
 }
+
+
+
+.carousel-indicators li {
+     background-color:red;
+     background-color:red;
+   }
+   
+   .carousel-indicators .active {
+     background-color: red;
+   }
+   .card{
+        padding: 10px;
+        margin: 10px;
+        margin-top: 5px;
+   }
+
+   .cardContainer{
+        margin-top: 5%;
+   }
