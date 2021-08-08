@@ -25,6 +25,13 @@ const Home = () => {
                 >
                   About
                 </Nav.Link>
+                <Nav.Link
+                  eventKey={2}
+                  href="/contact-us"
+                  className="d-flex justify-content-center"
+                >
+                  Contact
+                </Nav.Link>
               </Nav>
             </div>
           </Navbar.Collapse>
@@ -33,22 +40,22 @@ const Home = () => {
 
       <Carousel indicators={true}>
         <Carousel.Item>
-          <img src="../ht1.jpg" className=" d-block w-100" alt="" />
+          <img src="../images/ht1.jpg" className=" d-block w-100" alt="" />
         </Carousel.Item>
         <Carousel.Item>
-          <img src="../ht2.jpg" className=" w-100" alt="" />
+          <img src="../images/ht2.jpg" className=" w-100" alt="" />
         </Carousel.Item>
         <Carousel.Item>
-          <img src="../ht3.jpg" className=" w-100" alt="" />
+          <img src="../images/ht3.jpg" className=" w-100" alt="" />
         </Carousel.Item>
         <Carousel.Item>
-          <img src="../ht4.jpg" className=" w-100" alt="" />
+          <img src="../images/ht4.jpg" className=" w-100" alt="" />
         </Carousel.Item>
       </Carousel>
 
       <Container className="cardContainer d-flex ">
         <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src="../r1.jpg" />
+          <Card.Img variant="top" src="../images/r1.jpg" />
           <Card.Body>
             <Card.Title>Room Type I</Card.Title>
             <Card.Text>
@@ -59,7 +66,7 @@ const Home = () => {
           </Card.Body>
         </Card>
         <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src="../r1.jpg" />
+          <Card.Img variant="top" src="../images/r1.jpg" />
           <Card.Body>
             <Card.Title>Room Type II</Card.Title>
             <Card.Text>
@@ -70,7 +77,7 @@ const Home = () => {
           </Card.Body>
         </Card>
         <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src="../r1.jpg" />
+          <Card.Img variant="top" src="../images/r1.jpg" />
           <Card.Body>
             <Card.Title>Room Type III</Card.Title>
             <Card.Text>
@@ -81,7 +88,7 @@ const Home = () => {
           </Card.Body>
         </Card>
         <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src="../r1.jpg" />
+          <Card.Img variant="top" src="../images/r1.jpg" />
           <Card.Body>
             <Card.Title>Room Type IV</Card.Title>
             <Card.Text>
